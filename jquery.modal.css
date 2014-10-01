@@ -1,7 +1,8 @@
 .modal {
   display: none;
   width: 400px;
-  background: #fff;
+  height: 400px;
+  background: url(modal.jpg); 
   padding: 15px 30px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -23,7 +24,7 @@
   width: 30px;
   height: 30px;
   text-indent: -9999px;
-  background: url(close.png) no-repeat 0 0;
+  /*background: url(close.png) no-repeat 0 0; */
 }
 
 .modal-spinner {

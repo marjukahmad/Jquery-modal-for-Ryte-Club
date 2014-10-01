@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+ .buttonHome { display: inline-block;
+ position: relative;
+ height: 25px;
+ line-height: 22px;
+ padding: 0 10px;
+ outline: 0;
+ color: rgba(0,0,0,0.44);
+ background: rgba(0,0,0,0);
+ font-size: 14px;
+ text-align: center;
+ text-decoration: none;
+ cursor: pointer;
+ border: 1px solid rgba(0,0,0,0.15);
+ vertical-align: bottom;
+ white-space: nowrap;
+ border-radius: 999em; 
+ letter-spacing: -0.02em;
+ font-weight: 400;
+ font-style: normal;
+ box-sizing: border-box;
+ transition: .1s background-color,.1s border-color,.1s color;
+ 
+ text-rendering: optimizeLegibility;}
+
+ .buttonHome:hover { color:rgba(0,0,0,0.6);
+    text-decoration: none;
+border-color: rgba(0,0,0,0.3); 
+background: rgb(235,233,233);}
+
+div#ex1 p{
+	font-size: 24px;
+	font-family: "Times New Roman", Times, serif;
+	margin-left: 30px;
+}
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+  
+<link rel="stylesheet" type="text/css" href="jquery.modal.css">
+</head>
+<body>
+	
+	
+
+  <!-- Modal HTML embedded directly into document -->
+  <div id="ex1" style="display:none">
+    <p> Please <a href="#"> Login </a> to Extend </p><!-- <a href="#" rel="modal:close">Close</a> or press ESC</p> -->
+  </div>
+  
+</div>
+
+  <!-- Link to open the modal -->
+  <p><a href="#ex1" rel="modal:open" class="buttonHome"> Extend </a></p> 
+
+</body>
+</html> 
